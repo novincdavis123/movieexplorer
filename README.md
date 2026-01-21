@@ -1,16 +1,57 @@
-# movieexplorer
+Movie Explorer App
 
-A new Flutter project.
+A Flutter app to explore movies, view details, and book tickets with a barcode-based ticket system.
 
-## Getting Started
+Features
 
-This project is a starting point for a Flutter application.
+Onboarding Screens – Introductory walkthrough with images and Next/Get Started buttons.
 
-A few resources to get you started if this is your first Flutter project:
+Home Screen –
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Search bar over a background image
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Genre chips and a carousel slider of movies
+
+Horizontal scrollable lists for popular and top-rated movies
+
+Movie Details Screen –
+
+Movie poster with “Watch Trailer” button
+
+Like & Share buttons
+
+Genres, description, info chips (year, duration, IMDb rating)
+
+Date & time selection and a “Book Now” button
+
+Booking Screen –
+
+Ticket-style card with clipped edges
+
+Movie poster and title inside the card
+
+Booking details (date, time, row, seat)
+
+Barcode for ticket verification
+
+Bottom Navigation – Home, Find, Saved, Profile
+
+API Integration –
+
+Fetch movies list from server
+
+Book tickets using API
+
+API Service
+
+Running the App
+
+Clone the repo
+
+Run flutter pub get
+
+Update ApiService.baseUrl with your server URL
+
+Run the app:
+
+flutter run
