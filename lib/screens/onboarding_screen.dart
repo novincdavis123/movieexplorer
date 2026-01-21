@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:movieexplorer/screens/home_screen.dart';
+import 'package:movieexplorer/screens/dashboard_screen.dart';
 
 class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen({super.key});
@@ -106,7 +106,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                   if (currentIndex == pages.length - 1) {
                     Navigator.pushReplacement(
                       context,
-                      MaterialPageRoute(builder: (_) => HomeScreen()),
+                      MaterialPageRoute(builder: (_) => MainScreen()),
                     );
                   } else {
                     _controller.nextPage(
